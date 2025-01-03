@@ -1,0 +1,48 @@
+html {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 0;
+} 
+
+body {
+    background-color: black;
+}
+
+h1, h2, h3, h5 {
+    color: red;
+}
+
+.tigers .youth .adults li {
+    background-color: white;
+}
+
+.nav, footer {
+    width: 100%;
+    text-align: center;
+}
+
+
+ul li {
+   list-style-position: inside;
+   font-weight: bold;
+   color: white;
+   text-align: center;
+}
+
+h3, .ata {
+    text-align: center;
+}
+
+.team {
+    text-align: end;
+}
+
+
+
+@media only screen and (max-width: 1048px) {
+     img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}   
