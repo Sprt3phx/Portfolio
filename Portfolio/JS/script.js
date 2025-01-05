@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener('DOMContentLoaded', function(event) => {
     const toggleButton = document.getElementById('toggle-mode');
     toggleButton.addEventListener('click', () => {
         document.body.classList.toggle('dark-mode');
@@ -7,3 +7,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         announce('Dark mode toggled');
     });
 });
+
+function announce(message) {
+    const liveRegion = document.getElementById('live-region');
+    liveRegion.textContent = message;
+}
